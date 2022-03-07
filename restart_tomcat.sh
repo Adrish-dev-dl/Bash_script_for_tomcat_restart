@@ -39,11 +39,9 @@ function check_after_restart()
 {
 	
 	flag=$(check_no_of_tomcat_service)
-	#echo "yaha pr ruka"
 	n=1
 	if [ $flag -eq $n ];
 	then
-	   echo "Tomcat chalu ho gya"
 	   exit
 	else
 	    run_startup_script
@@ -72,7 +70,6 @@ then
 	
 	flag=$(check_no_of_tomcat_service)
 	n=1
-	echo "yaha pr ruka firse"
 	if [ $flag -eq $n ];
 	then
 	
